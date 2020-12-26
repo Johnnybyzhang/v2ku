@@ -6,4 +6,4 @@ RUN chmod +x ./run.sh ./v2ray ./v2ctl
 
 ENTRYPOINT ./run.sh
 
-EXPOSE 38251 443
+EXPOSE 38251
