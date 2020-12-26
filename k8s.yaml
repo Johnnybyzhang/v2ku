@@ -17,7 +17,7 @@ spec:
         - name: v2ku
           image: elecv2/lev2
           ports:
-            - containerPort: 8251
+            - containerPort: 38251
             
 ---
 apiVersion: v1
@@ -30,6 +30,6 @@ spec:
   type: ClusterIP  
   ports:
   - name: "v2kurl"
-    port: 8251
+    port: 38251
   selector:
     name: elecv2
